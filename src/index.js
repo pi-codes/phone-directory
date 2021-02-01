@@ -7,7 +7,7 @@ import registerServiceWorker from './registerServiceWorker';
 import AddSusbscriber from './AddSubscriber';
 import './common/common.css';
 
-ReactDOM.render(<AddSusbscriber />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
